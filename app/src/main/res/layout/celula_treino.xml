@@ -14,15 +14,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/txtM"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:text="@string/m"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            app:srcCompat="@drawable/estrelaa"
+            android:contentDescription="@string/todo" />
     </FrameLayout>
 
     <FrameLayout
@@ -45,7 +43,7 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtNomeTreino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
@@ -53,7 +51,7 @@
         android:layout_marginTop="21dp"
         android:layout_marginEnd="117dp"
         android:layout_marginRight="117dp"
-        android:text="TextView"
+        android:text="@string/txtnometreino"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/frameLayout2"
         app:layout_constraintStart_toEndOf="@+id/frameLayout"
